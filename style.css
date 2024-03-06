@@ -1,0 +1,67 @@
+.card {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  height: 700px;
+}
+
+.card-img {
+  height: 300px;
+  width: 312px;
+}
+
+.card-year {
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.margin-menu {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 60px;
+  left: 60px;
+  right: 100px;
+  width: 500px;
+  height: 500;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button-margin {
+  margin-top: 30px;
+}
+
+.invalid-feedback {
+  color: red;
+}
+
+.content-end {
+  justify-content: end !important;
+}
